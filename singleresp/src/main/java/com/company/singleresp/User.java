@@ -1,4 +1,4 @@
-package main.java.com.company.singleresp;
+package com.company.singleresp;
 
 //User entity
 public class User {

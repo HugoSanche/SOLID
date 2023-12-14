@@ -1,4 +1,4 @@
-package main.java.com.company.singleresp;
+package com.company.singleresp;
 
 import java.io.IOException;
 import java.util.regex.Matcher;

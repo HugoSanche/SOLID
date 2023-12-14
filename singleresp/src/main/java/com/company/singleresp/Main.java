@@ -1,10 +1,8 @@
 
 
-package main.java.com.company.singleresp;
-
+package com.company.singleresp;
 
 import java.io.IOException;
-
 //Main class to test
 public class Main {
 	//A valid USER JSON String
