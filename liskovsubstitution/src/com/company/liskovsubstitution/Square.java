@@ -1,23 +1,22 @@
 package com.company.liskovsubstitution;
 public class Square implements Shape {
 
+	private int side;
+
 	public Square(int side) {
-		super(side, side);
+		this.side = side;
 	}
 
-	@Override
-	public void setWidth(int width) {
-		setSide(width);
-	}
-
-	@Override
-	public void setHeight(int height) {
-		setSide(height);
+	public int getSide() {
+		return side;
 	}
 
 	public void setSide(int side) {
-		super.setWidth(side);
-		super.setHeight(side);
+		this.side = side;
 	}
 
+	@Override
+	public int computeArea() {
+		return side*side;
+	}
 }
