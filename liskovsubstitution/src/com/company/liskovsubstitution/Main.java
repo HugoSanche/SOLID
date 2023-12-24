@@ -1,4 +1,4 @@
-package com.company.liskov_1;
+package com.company.liskovsubstitution;
 
 public class Main {
 
@@ -13,7 +13,6 @@ public class Main {
 		useRectangle(rectangle);
 		
 		useRectangle(square);
-
 	}
 
 	private static void useRectangle(Rectangle rectangle) {

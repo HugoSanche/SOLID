@@ -1,4 +1,4 @@
-package com.company.liskov_1;
+package com.company.liskovsubstitution;
 
 public class Rectangle {
 
