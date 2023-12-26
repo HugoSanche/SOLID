@@ -26,7 +26,6 @@ public class UserPersistenceService implements PersistenceService<User>{
 		}
 	}
 
-	@Override
 	public User findById(Long id) {
 		synchronized (USERS) {
 			return USERS.get(id);
