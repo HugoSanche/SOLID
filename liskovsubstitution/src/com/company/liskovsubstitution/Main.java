@@ -10,7 +10,7 @@ public class Main {
 		Square square = new Square(10);
 		System.out.println(square.computeArea());
 		
-		useRectangle(rectangle);
+
 	}
 
 	private static void useRectangle(Rectangle rectangle) {
