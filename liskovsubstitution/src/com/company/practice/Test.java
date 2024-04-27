@@ -8,7 +8,7 @@ public class Test {
         System.out.println(rectangle.calculateArea());
         System.out.println(square.calculateArea());
         useRectangle(rectangle);
-        
+
     }
     public static void useRectangle(Rectangle rectangle){
         rectangle.setWidth(10);
